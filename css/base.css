@@ -605,6 +605,38 @@ main {
   z-index: -999;
 }
 
+/* .ParallaxVideo video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+@media only screen and (max-width: 600px) {
+  .ParallaxVideo video {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
 .ParallaxVideo h1 {
   font-size: 76px;
   font-weight: 700;
